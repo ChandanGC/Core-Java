@@ -1,0 +1,20 @@
+class bike2
+{
+  String brand;
+  int cost;
+  String colour;
+
+  bike2(String a,int b,String c)
+  {
+    brand=a;
+    cost=b;
+    colour=c;
+  }
+ public static void main(String [] args)
+ {
+   bike2 b=new bike2("RE",1000,"black");
+   System.out.println(b.brand);
+   System.out.println(b.cost);
+   System.out.println(b.colour);
+ }
+}
