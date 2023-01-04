@@ -1,0 +1,18 @@
+class Main4
+{
+public static void main(String[] args)
+{
+long[] arr=new long[4];
+arr[0]=10;
+arr[1]=20;
+arr[2]=30;
+
+
+System.out.println("index \t values");
+
+for(int i=0;i<arr.length;i++)
+{
+System.out.println(i+"\t"+arr[i]);
+}
+}
+}

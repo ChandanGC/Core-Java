@@ -1,0 +1,16 @@
+class school1
+{
+  static String s_name="gcs";
+         char s_grade;
+	 int s_strength;
+   public static void main(String[]args)
+   {
+     System.out.println("school name is "+s_name);
+       school1 s=new school1();
+       
+     System.out.println("std 1 grade is "+s.s_grade);
+     school1 s1=new school1();
+      s1.s_strength=100;
+     System.out.println("school strength is "+s1.s_strength);
+     }
+    }
