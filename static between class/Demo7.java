@@ -1,0 +1,18 @@
+class Cone3
+{
+ static void area()
+	{
+   final double t=30.5;
+   final double z=0.5;
+         int r=5;
+   double result=t*z*r*r;
+   System.out.println(result);
+   }
+  }
+   class Demo7
+   {
+    public static void main(String [] args)
+    { 
+     Cone3.area();
+     }
+    }
